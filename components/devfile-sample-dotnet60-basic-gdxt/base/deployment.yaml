@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-gdxt
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/rsoaresd_org/spi-demos-zvln-tenant/dotnet-component/devfile-sample-dotnet60-basic-gdxt@sha256:5df772a9fda65d50c5e5c0af077dcdcd10665d2bfed5e8595c703cd061728826
         imagePullPolicy: Always
         name: main
         ports:
